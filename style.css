@@ -8,8 +8,12 @@ h1{
 span{
     color: rgb(207, 141, 19);
 }
-.first-section{
+section{
     display: flex;
+    margin-bottom: 100px;
+    
+}
+.section-css{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -19,9 +23,8 @@ span{
 }
 .half img{
     width: 80%;
-    height: 500px;
 }
-.hire-me{
+.link-button{
     text-decoration: none;
     color: white;
     background-image: linear-gradient(orange, tomato);
