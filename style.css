@@ -8,7 +8,7 @@ h1{
 span{
     color: rgb(207, 141, 19);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
     
@@ -21,6 +21,11 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.third-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .half{
     width: 50%;
@@ -36,4 +41,30 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 700;
+}
+.half-ex{
+    width: 40%;
+    padding: 3%;
+    margin: 0% 5%;
+    box-shadow: 10px 10px 15px rgb(70, 67, 67);
+    border-radius: 5px;
+
+}
+.half-ex h3 {
+    color: orange;
+}
+#ex-border-left-one{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#ex-border-left-two{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, purple);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    margin-bottom: 10px;
+
 }
